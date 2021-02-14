@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Seattle Seahawks</title>
+        <meta name="description" content="Seattle National Football Team has won one Super Bowl in 2014." >
+    </head>
+    <body>
+        <div id="container">
+        <h1>Seattle Seahawks</h1>
+        <img src="../Fake_Blog/image/seahawks_logo.jpg" alt="Seahawks Logo" width="150px;">
+        <p>The Seattle Seahawks plays at Lumen Field, formerly known as CenturyLink Field in the heart of downtown Seattle. They
+            currently have one Superbowl under their belt and still are chasing for more. They defeated the Denver Broncos, 43-8, 
+            in Super Bowl XLVIII to win their first title in 2014.  </p>
+        
+        <h2>Super Bowl appearances</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Opponent Team</th>
+                    <th>Result/Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Super Bowl XL</td>
+                    <td>Pittsburgh Steelers</td>
+                    <td>Lost 10-21</td>
+                </tr>
+                <tr>
+                    <td>Super Bowl XLVIII</td>
+                    <td>Denver Broncos</td>
+                    <td>Won 43-8</td>
+                </tr>
+                <tr>
+                    <td>Super Bowl XLIX</td>
+                    <td>New England Patriots</td>
+                    <td>Lost 24-28</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Key players</h3>
+        <ul>
+            <li>Russel Wilson - QB</li>
+            <li> DK Metcalf - WR</li>
+            <li>Jamal Adams - SS</li>
+            <li>Chris Carson - RB</li>
+            <li>Tyler Lockett - WR</li>
+            <li>Bobby Wagner - LB</li>
+        </ul>
+        <a href="https://www.seahawks.com/">Click here to learn more about Seattle Seahawks</a>
+        
+        <form action="process.php" method="post">
+            <h4>Please take a survey  to score a chance to win a ticket to a Seahawks game</h4>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name"><br><br>
+           
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+  
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+           
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+           
+            <p>How did you hear about us?</p>
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facvebook" name="facebook" value="facebook">
+            <label for="newspaper">Newspaper</label>
+            <input type="checkbox" id="newspaper" name="newspaper" value="newspaper">
+            <label for="referral">Referral</label>
+            <input type="checkbox" id="referral" name="referral" value="referral"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+    </body>
+</html>
